@@ -119,21 +119,34 @@ Configured CORS for secure browser access.
 
 ## Screenshots
 
-### Application Interface
+### Website Homepage
 
-![Application UI](screenshots/application-ui.png)
+![Website-Homepage](screenshots/website-homepage.png)
 
-### DynamoDB Table
+### Add-Task
 
-![DynamoDB Table](screenshots/dynamodb-table.png)
+![Add Task](screenshots/add-task.png)
 
-### API Gateway Routes
+### Add-Task-Dynamo-table
 
-![API Gateway](screenshots/api-gateway-routes.png)
+![Add Task DynamoDB Table](screenshots/add-task-dynamo-table.png)
 
-### Lambda Function
+### Mark-Task-Completed
 
-![Lambda Function](screenshots/lambda-function.png)
+![Mark Task Completed](screenshots/mark-task-completed.png)
+
+### Mark-Task-Completed-Dynamo-Table
+
+![Mark Task Completed Dynamo Table](screenshots/mark-task-completed-dynamo-table.png)
+
+### Delete-Task
+
+![Delete Task](screenshots/delete-task.png)
+
+### Delete-Task-Dynamo-Table
+
+![Delete Task DynamoDB Table](screenshots/delete-task-dynamo-table.png)
+
 
 ---
 
