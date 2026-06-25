@@ -154,11 +154,17 @@ Configured CORS for secure browser access.
 
 ```text
 aws-serverless-todo-app/
-├── frontend/
-│   └── index.html
+│── index.html
 ├── lambda/
-│   └── lambda_function.py
+│   └── todotasks-lambda.py
 ├── screenshots/
+│   └── add-task-dynamo-table.jpeg
+│   └── add-task.png
+│   └── delete-task-dynamo-table.jpeg
+│   └── delete-task.png
+│   └── mark-task-completed-dynamo-table.jpeg
+│   └── mark-task-completed.png
+│   └── website-homepage.png
 ├── README.md
 ```
 
