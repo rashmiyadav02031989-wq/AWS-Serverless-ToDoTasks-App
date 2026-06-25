@@ -129,7 +129,7 @@ Configured CORS for secure browser access.
 
 ### Add-Task-Dynamo-table
 
-![Add Task DynamoDB Table](screenshots/add-task-dynamo-table.png)
+![Add Task DynamoDB Table](screenshots/add-task-dynamo-table.jpeg)
 
 ### Mark-Task-Completed
 
