@@ -21,31 +21,31 @@ A fully serverless To-Do List Application built using AWS cloud services. The ap
 ```mermaid
 flowchart TD
 
-%% ========== USER ==========
-User[👤 User] --> S3Frontend
+flowchart TD
 
-%% ========== FRONTEND ==========
-S3Frontend[Amazon S3<br/>Static Website Hosting]
+User[👤 User] --> CF[Amazon CloudFront<br/>CDN]
 
-S3Frontend --> APIGW[Amazon API Gateway<br/>HTTP API]
+CF --> S3[S3 Static Website Bucket<br/>Frontend Hosting]
 
-%% ========== BACKEND ==========
-APIGW --> Lambda[AWS Lambda<br/>Task Management Service]
+S3 --> APIGW[API Gateway HTTP API]
 
-Lambda --> DynamoDB[(Amazon DynamoDB<br/>Tasks Table)]
+APIGW --> Lambda[AWS Lambda<br/>CRUD Service]
 
-%% ========== RESPONSE FLOW ==========
-DynamoDB --> Lambda
+Lambda --> DB[(Amazon DynamoDB<br/>Tasks Table)]
+
+DB --> Lambda
 Lambda --> APIGW
-APIGW --> S3Frontend
+APIGW --> CF
 
-%% ========== GROUPS ==========
 subgraph Frontend Layer
-S3Frontend
+CF
+S3
 end
 
-subgraph API Layer
+subgraph Backend Serverless Layer
 APIGW
+Lambda
+DB
 end
 ```
 
