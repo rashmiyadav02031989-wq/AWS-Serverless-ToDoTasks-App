@@ -149,6 +149,7 @@ aws-serverless-todo-app/
 * Enabled CORS configuration for browser access.
 * Stored application data securely in DynamoDB.
 * Utilized IAM roles for Lambda permissions.
+* Used CloudFront to ensure secure data transfer and prevents HTTP-based access issues.
 
 ---
 
@@ -160,7 +161,7 @@ aws-serverless-todo-app/
 * Amazon S3 Static Website Hosting
 * Python
 * JavaScript
-* REST API Development
+* Amazon CloudFront 
 * Serverless Architecture
 * Cloud Security Fundamentals
 
@@ -177,11 +178,5 @@ Successfully developed and deployed a fully functional serverless task managemen
 * User authentication with Amazon Cognito
 * Task priorities and due dates
 * Search and filter functionality
-* CloudFront integration for global content delivery
 * Infrastructure as Code using AWS SAM or Terraform
 * Responsive mobile-first UI enhancements
-
-
-subgraph Database Layer
-DynamoDB
-end
