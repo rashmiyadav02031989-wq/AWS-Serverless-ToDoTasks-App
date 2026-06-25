@@ -191,7 +191,6 @@ aws-serverless-todo-app/
 * JavaScript
 * Amazon CloudFront 
 * Serverless Architecture
-* Cloud Security Fundamentals
 
 ---
 
