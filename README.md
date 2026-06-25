@@ -137,7 +137,7 @@ Configured CORS for secure browser access.
 
 ### Mark-Task-Completed-Dynamo-Table
 
-![Mark Task Completed Dynamo Table](screenshots/mark-task-completed-dynamo-table.png)
+![Mark Task Completed Dynamo Table](screenshots/mark-task-completed-dynamo-table.jpeg)
 
 ### Delete-Task
 
@@ -145,7 +145,7 @@ Configured CORS for secure browser access.
 
 ### Delete-Task-Dynamo-Table
 
-![Delete Task DynamoDB Table](screenshots/delete-task-dynamo-table.png)
+![Delete Task DynamoDB Table](screenshots/delete-task-dynamo-table.jpeg)
 
 
 ---
