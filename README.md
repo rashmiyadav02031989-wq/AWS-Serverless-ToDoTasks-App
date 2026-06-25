@@ -154,7 +154,6 @@ Configured CORS for secure browser access.
 
 ```text
 aws-serverless-todo-app/
-│── index.html
 ├── lambda/
 │   └── todotasks-lambda.py
 ├── screenshots/
@@ -166,6 +165,7 @@ aws-serverless-todo-app/
 │   └── mark-task-completed.png
 │   └── website-homepage.png
 ├── README.md
+│── index.html
 ```
 
 ---
