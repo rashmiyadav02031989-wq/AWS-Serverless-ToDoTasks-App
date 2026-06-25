@@ -18,7 +18,7 @@ A fully serverless To-Do List Application built using AWS cloud services. The ap
 ---
 
 ## Architecture
-
+```mermaid
 flowchart TD
 
 %% ========== USER ==========
@@ -47,11 +47,7 @@ end
 subgraph API Layer
 APIGW
 end
-
-subgraph Compute Layer
-Lambda
-end
-
+```
 
 ---
 
