@@ -21,8 +21,6 @@ A fully serverless To-Do List Application built using AWS cloud services. The ap
 ```mermaid
 flowchart TD
 
-flowchart TD
-
 User[👤 User] --> CF[Amazon CloudFront<br/>CDN]
 
 CF --> S3[S3 Static Website Bucket<br/>Frontend Hosting]
