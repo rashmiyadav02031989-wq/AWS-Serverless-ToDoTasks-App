@@ -96,15 +96,24 @@ Example Item:
 
 ## Implementation Steps
 
-1. Created a DynamoDB table to store tasks.
-2. Developed an AWS Lambda function to handle CRUD operations.
-3. Configured API Gateway HTTP API routes.
-4. Implemented task creation, retrieval, update, and deletion logic.
-5. Built a responsive frontend using HTML, CSS, and JavaScript.
-6. Hosted the frontend on Amazon S3 Static Website Hosting.
-7. Integrated CloudFront for secure HTTPS delivery.  
-8. Connected the frontend to backend APIs using the Fetch API.
-9. Configured CORS for secure browser access.
+**Step 1:**  
+Created a DynamoDB table to store tasks.
+**Step 2:**  
+Developed an AWS Lambda function to handle CRUD operations.
+**Step 3:**  
+Configured API Gateway HTTP API routes.
+**Step 4:**  
+Implemented task creation, retrieval, update, and deletion logic.
+**Step 5:**  
+Built a responsive frontend using HTML, CSS, and JavaScript.
+**Step 6:**  
+Hosted the frontend on Amazon S3 Static Website Hosting.
+**Step 7:**  
+Integrated CloudFront for secure HTTPS delivery.  
+**Step 8:**  
+Connected the frontend to backend APIs using the Fetch API.
+**Step 9:**  
+Configured CORS for secure browser access.
 
 ---
 
