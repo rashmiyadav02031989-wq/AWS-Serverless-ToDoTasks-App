@@ -121,7 +121,7 @@ Configured CORS for secure browser access.
 
 ### Website Homepage
 
-![Website-Homepage](screenshots/website-homepage.png)
+![Website Homepage](screenshots/website-homepage.png)
 
 ### Add-Task
 
